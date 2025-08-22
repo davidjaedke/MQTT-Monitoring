@@ -40,7 +40,7 @@ sudo apt-get update
 # Required:
 sudo apt-get install -y mosquitto-clients
 # Optional (enable extra metrics):
-sudo apt-get install -y zfsutils-linux smartmontools apt
+sudo apt-get install -y zfsutils-linux smartmontools
 ```
 
 > The script also uses standard base tools (`awk`, `sed`, `grep`, `df`, `lsblk`, `hostname`, `date`, `sleep`) which are present on most systems.
