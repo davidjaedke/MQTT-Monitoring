@@ -207,3 +207,6 @@ Use `--debug` to see each step and payload topic/value (great for troubleshootin
 - **TLS errors**  
   Set a valid CA file via `MQTT_TLS="--cafile /path/to/ca.crt"` (or client cert options as needed).
 
+## 🙌 Example Home Assistant Dashboard
+![Example](https://github.com/davidjaedke/MQTT-Monitoring/blob/main/mqtt-monitoring-ha.jpg)
+
