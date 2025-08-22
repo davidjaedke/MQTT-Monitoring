@@ -32,7 +32,7 @@ It reads common system metrics (CPU, RAM, disks, temps, ZFS, processes, network 
 
 ```bash
 # 1) Get the script
-sudo curl -L -o /usr/local/bin/ha-mqtt-server-monitor   https://example.com/path/to/ha-mqtt-server-monitor.sh   # <-- replace with your raw URL
+sudo curl -L -o /usr/local/bin/ha-mqtt-server-monitor https://raw.githubusercontent.com/davidjaedke/MQTT-Monitoring/refs/heads/main/ha-mqtt-server-monitor.sh
 sudo chmod +x /usr/local/bin/ha-mqtt-server-monitor
 
 # 2) Install dependencies
